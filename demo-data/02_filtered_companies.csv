@@ -1,0 +1,16 @@
+company_name,category,suburb,address,phone,website,include,exclude_reason
+Northbridge Roasting Co,Coffee roaster,Northbridge,"12 Example St, Northbridge NSW 2000, Australia",+61 400 000 001,http://www.northbridgeroasting.example,YES,
+Riverside Bean Works,Wholesale coffee roaster,Riverside,"88 Sample Ave, Riverside NSW 2100, Australia",+61 400 000 002,http://www.riversidebeanworks.example,YES,
+Cafe Direct Retail,Cafe,Riverside,"5 Test Rd, Riverside NSW 2100, Australia",+61 400 000 003,http://www.cafedirectretail.example,NO,retail cafe not wholesale target
+Harbourline Coffee Equipment,Coffee equipment supplier,Northbridge,"3 Demo Ln, Northbridge NSW 2000, Australia",+61 400 000 004,http://www.harbourlineequipment.example,NO,equipment supplier - keyword collision noise
+Sunset Roastery Franchise (Store #14),Coffee shop,Meadowvale,"221 Placeholder Bvd, Meadowvale NSW 2200, Australia",+61 400 000 005,http://www.sunsetroasteryfranchise.example,NO,franchise - HQ-level contract decision
+Golden Bean Wholesale,Wholesale coffee roaster,Meadowvale,"47 Fictional Cres, Meadowvale NSW 2200, Australia",+61 400 000 006,http://www.goldenbeanwholesale.example,YES,
+Ember & Oak Roasters,Coffee roaster,Northbridge,"19 Mock St, Northbridge NSW 2000, Australia",+61 400 000 007,http://www.emberoakroasters.example,YES,
+Portside Packaging Supplies,Packaging company,Riverside,"77 Sample Ct, Riverside NSW 2100, Australia",+61 400 000 008,http://www.portsidepackaging.example,NO,packaging vendor - not a target
+Two Rivers Coffee Traders,Food products supplier,Meadowvale,"9 Example Pde, Meadowvale NSW 2200, Australia",+61 400 000 009,http://www.tworiverscoffee.example,YES,
+Meadowvale Cafe & Bakery,Cafe,Meadowvale,"63 Test Ave, Meadowvale NSW 2200, Australia",+61 400 000 010,http://www.meadowvalecafe.example,NO,retail cafe not wholesale target
+Highland Roasting Collective,Wholesale coffee roaster,Northbridge,"31 Demo Rd, Northbridge NSW 2000, Australia",+61 400 000 011,http://www.highlandroasting.example,YES,
+Barista Gear Wholesale,Restaurant supply store,Riverside,"14 Placeholder St, Riverside NSW 2100, Australia",+61 400 000 012,http://www.baristagearwholesale.example,NO,equipment/supply vendor
+Coastal Coffee Distributors,Wholesaler,Meadowvale,"58 Fictional Ave, Meadowvale NSW 2200, Australia",+61 400 000 013,http://www.coastalcoffeedist.example,YES,
+Sunset Roastery Franchise (Store #22),Coffee shop,Riverside,"102 Mock Bvd, Riverside NSW 2100, Australia",+61 400 000 014,http://www.sunsetroasteryfranchise.example,NO,franchise - HQ-level contract decision
+Ironbark Coffee Manufacturing,Food manufacturer,Northbridge,"26 Example Cres, Northbridge NSW 2000, Australia",+61 400 000 015,http://www.ironbarkcoffeemfg.example,YES,

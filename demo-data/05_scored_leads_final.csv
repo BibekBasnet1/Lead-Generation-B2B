@@ -1,0 +1,10 @@
+first_name,last_name,title,company_name,domain,linkedin_url,email,email_status,phone,icp_fit_score,tier
+Jordan,Ashby,Owner,Northbridge Roasting Co,northbridgeroasting.example,http://www.linkedin.com/in/jordan-ashby-example,jordan@northbridgeroasting.example,verified,+61 400 100 001,92,A
+Priya,Kapoor,Director,Riverside Bean Works,riversidebeanworks.example,http://www.linkedin.com/in/priya-kapoor-example,priya@riversidebeanworks.example,verified,+61 400 100 002,90,A
+Aisha,Bello,Managing Director,Highland Roasting Collective,highlandroasting.example,http://www.linkedin.com/in/aisha-bello-example,aisha@highlandroasting.example,verified,+61 400 100 003,88,A
+Sam,Okafor,Founder,Golden Bean Wholesale,goldenbeanwholesale.example,http://www.linkedin.com/in/sam-okafor-example,sam@goldenbeanwholesale.example,verified,,86,A
+Renee,Park,Facilities Manager,Ironbark Coffee Manufacturing,ironbarkcoffeemfg.example,http://www.linkedin.com/in/renee-park-example,,not_found,+61 400 100 004,79,B
+Lena,Fischer,General Manager,Ember & Oak Roasters,emberoakroasters.example,http://www.linkedin.com/in/lena-fischer-example,lena@emberoakroasters.example,extrapolated,,74,B
+Tom,Delgado,Operations Manager,Riverside Bean Works,riversidebeanworks.example,http://www.linkedin.com/in/tom-delgado-example,tom@riversidebeanworks.example,verified,,73,B
+Chris,Novak,Site Manager,Coastal Coffee Distributors,coastalcoffeedist.example,http://www.linkedin.com/in/chris-novak-example,,not_found,+61 400 100 005,68,B
+Marco,Ruiz,Production Manager,Two Rivers Coffee Traders,tworiverscoffee.example,http://www.linkedin.com/in/marco-ruiz-example,,not_found,,58,C

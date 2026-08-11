@@ -1,0 +1,17 @@
+# Never commit real credentials
+.env
+.env.*
+*.key
+*apikey*
+*api_key*
+secrets/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Local scratch
+raw_data/
+scratchpad/
+*.local.csv
