@@ -20,7 +20,7 @@ actually uses; the *shape* of the workflow is the reusable part.
 
 ## Prerequisites
 
-- A B2B contact-enrichment provider with company + people search (e.g. Apollo.io) via MCP or API
+- A B2B contact-enrichment provider with company + people search (e.g. Apollo.io, Clay CLI) via MCP, CLI, or API
 - A local-business discovery source for verticals that skew small/local (e.g. an Apify Maps-scraping actor, or any equivalent business-listing API)
 - Optionally, a CRM to dedupe against (the skill degrades gracefully without one — it just skips Step 4)
 - An `ICP.md` (or equivalent) per vertical — source of truth for target market, personas, disqualifiers. If the vertical isn't covered yet, interview the user to build it (see bottom of this file).

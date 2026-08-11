@@ -2,7 +2,33 @@
 <svg viewBox="0 0 840 356" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="flow-title flow-desc">
       <title id="flow-title">Lead-gen sourcing pipeline data flow</title>
       <desc id="flow-desc">External APIs source and match companies and contacts, the skill's own logic filters, dedupes, and scores them, and the CRM check keeps enrichment spend to net-new contacts, before a final enrichment call back out to Apollo.</desc>
-      <defs><style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500;600&amp;display=swap');</style>
+      <defs><style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500;600&amp;display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --paper: #f5f5f5; --paper-2: #ececec; --ink: #2d3142; --muted: #4f5d75;
+      --soft: #7a8399; --rule: rgba(45,49,66,0.12); --accent: #eb6c36;
+      --accent-tint: rgba(235,108,54,0.08); --link: #2e5aa8;
+      --sans: 'Geist', system-ui, sans-serif; --serif: 'Instrument Serif', serif;
+      --mono: 'Geist Mono', ui-monospace, monospace;
+    }
+    body { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 3rem 2rem; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+    .frame { width: 100%; max-width: 1240px; }
+    .eyebrow { margin-bottom: 0.5rem; color: var(--muted); font: 500 0.66rem var(--mono); letter-spacing: 0.18em; text-transform: uppercase; }
+    h1 { margin-bottom: 1.5rem; color: var(--ink); font: 400 clamp(1.5rem, 2.4vw + 0.75rem, 2rem)/1.15 var(--serif); letter-spacing: -0.02em; }
+    svg { display: block; width: 100%; min-width: 840px; }
+    .step-number, .step-label, .lane-label, .role-text, .chip-text, .legend-label { font-family: var(--mono); text-anchor: middle; }
+    .step-number { fill: var(--ink); font-size: 7px; font-weight: 600; }
+    .step-label { fill: var(--muted); font-size: 7px; font-weight: 500; letter-spacing: 0.10em; }
+    .lane-label { fill: var(--muted); font-size: 8px; font-weight: 500; letter-spacing: 0.14em; }
+    .role-text { fill: var(--ink); font-size: 6px; font-weight: 600; }
+    .node-title { fill: var(--ink); font: 600 9px var(--sans); text-anchor: middle; }
+    .node-sub { fill: var(--muted); font: 400 6.5px var(--mono); text-anchor: middle; }
+    .node-tool { fill: var(--soft); font: 400 6.5px var(--mono); text-anchor: middle; }
+    .chip-text { fill: #fff; font-size: 5px; font-weight: 700; }
+    .focal-text { fill: var(--accent); }
+    .legend-label { fill: var(--muted); font-size: 7px; font-weight: 500; letter-spacing: 0.12em; text-anchor: end; }
+    .legend-text { fill: var(--muted); font: 400 7px var(--sans); }
+  </style>
         <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="0.8" fill="rgba(45,49,66,0.10)"/></pattern>
         <marker id="arr-muted" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#4f5d75"/></marker>
         <marker id="arr-accent" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#eb6c36"/></marker>
@@ -21,12 +47,12 @@
       <line x1="140" y1="36" x2="140" y2="276" stroke="rgba(45,49,66,0.12)" stroke-width="0.8"/>
 
       <g aria-label="Pipeline steps">
-        <rect x="164" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="196" y="14" class="step-number">01</text><text x="196" y="29" class="step-label">SOURCE</text>
-        <rect x="276" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="308" y="14" class="step-number">02</text><text x="308" y="29" class="step-label">FILTER</text>
-        <rect x="388" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="420" y="14" class="step-number">03</text><text x="420" y="29" class="step-label">MATCH</text>
-        <rect x="500" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="532" y="14" class="step-number">04</text><text x="532" y="29" class="step-label">DEDUPE</text>
-        <rect x="612" y="6" width="32" height="16" rx="8" fill="rgba(235,108,54,0.20)"/><text x="644" y="14" class="step-number focal-text">05</text><text x="644" y="29" class="step-label focal-text">SCORE</text>
-        <rect x="724" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="756" y="14" class="step-number">06</text><text x="756" y="29" class="step-label">ENRICH</text>
+        <rect x="180" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="196" y="14" class="step-number">01</text><text x="196" y="29" class="step-label">SOURCE</text>
+        <rect x="292" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="308" y="14" class="step-number">02</text><text x="308" y="29" class="step-label">FILTER</text>
+        <rect x="404" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="420" y="14" class="step-number">03</text><text x="420" y="29" class="step-label">MATCH</text>
+        <rect x="516" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="532" y="14" class="step-number">04</text><text x="532" y="29" class="step-label">DEDUPE</text>
+        <rect x="628" y="6" width="32" height="16" rx="8" fill="rgba(235,108,54,0.20)"/><text x="644" y="14" class="step-number focal-text">05</text><text x="644" y="29" class="step-label focal-text">SCORE</text>
+        <rect x="740" y="6" width="32" height="16" rx="8" fill="rgba(45,49,66,0.12)"/><text x="756" y="14" class="step-number">06</text><text x="756" y="29" class="step-label">ENRICH</text>
       </g>
 
       <g aria-label="Role lanes">
@@ -74,14 +100,14 @@
       <!-- Leadgen Skill: Score (focal) -->
       <rect x="594" y="124" width="100" height="64" rx="6" fill="rgba(235,108,54,0.07)" stroke="#eb6c36" stroke-width="1.2"/>
       <rect x="598" y="128" width="18" height="10" rx="3" fill="rgba(235,108,54,0.20)"/><text x="607" y="133" class="role-text focal-text">SKL</text>
-      <text x="644" y="147" class="node-title">Score (ICP fit)</text><text x="644" y="159" class="node-sub">power · fit · geo · signal</text><text x="644" y="171" class="node-tool">skill logic</text>
+      <text x="644" y="147" class="node-title">Score (ICP fit)</text><text x="644" y="159" class="node-sub">5 weighted ICP factors</text><text x="644" y="171" class="node-tool">skill logic</text>
       <rect x="598" y="178" width="16" height="8" rx="3" fill="#5e7a9b"/><text x="606" y="184" class="chip-text">DB</text>
       <rect x="674" y="178" width="16" height="8" rx="3" fill="#b8915a"/><text x="682" y="184" class="chip-text">TB</text>
 
       <!-- External APIs: Enrich, Deliberately -->
       <rect x="706" y="44" width="100" height="64" rx="6" fill="#f5f5f5" stroke="rgba(45,49,66,0.25)"/>
       <rect x="710" y="48" width="18" height="10" rx="3" fill="rgba(45,49,66,0.12)"/><text x="719" y="53" class="role-text">API</text>
-      <text x="756" y="67" class="node-title">Enrich, Deliberately</text><text x="756" y="79" class="node-sub">cost confirmed → reveal</text><text x="756" y="91" class="node-tool">Apollo.io enrich</text>
+      <text x="756" y="67" class="node-title">Enrich, Deliberately</text><text x="756" y="79" class="node-sub">cost confirmed → reveal</text><text x="756" y="91" class="node-tool">Apollo.io · Clay CLI</text>
       <rect x="710" y="98" width="16" height="8" rx="3" fill="#b8915a"/><text x="718" y="104" class="chip-text">TB</text>
       <rect x="786" y="98" width="16" height="8" rx="3" fill="#b8915a"/><text x="794" y="104" class="chip-text">TB</text>
 
