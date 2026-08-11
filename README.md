@@ -4,6 +4,8 @@ A reusable **Claude Code Skill** for building B2B outbound lead lists through a 
 
 This repo is a public, sanitized demo of a workflow I use for real client work. All data in `demo-data/` is **synthetic** — fake companies, fake people, fake emails and phone numbers — generated to illustrate the shape of the pipeline without exposing any real client's information.
 
+![Pipeline data flow: external APIs source and match companies and contacts, the skill's own logic filters, dedupes, and scores them, a CRM check keeps enrichment spend to net-new contacts, then a final deliberate enrichment call goes back out to Apollo.](docs/assets/pipeline-diagram.svg)
+
 ## Why this exists
 
 Most "lead gen with AI" demos are a single API call. The interesting part is everything around it:
@@ -65,4 +67,3 @@ Open an issue first for anything beyond a small fix, so we can agree on shape be
 ## License
 
 MIT — see [LICENSE](LICENSE).
-# Lead-Generation-B2B

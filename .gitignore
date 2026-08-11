@@ -15,3 +15,6 @@ secrets/
 raw_data/
 scratchpad/
 *.local.csv
+
+# Local authoring tools, not part of this toolkit
+skills/diagram-design/
